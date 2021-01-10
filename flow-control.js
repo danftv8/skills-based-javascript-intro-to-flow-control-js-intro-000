@@ -1,4 +1,5 @@
 function basicTeenager(age) {
+  var age = teenager
   if (age >= 13 || age <= 19) {
   'You are a teenager!';
   }
@@ -58,5 +59,4 @@ function switchAge(age) {
   default:
     console.log("You have an age");
 }
-
 }
